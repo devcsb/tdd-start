@@ -14,7 +14,7 @@ public class ProductApiTest extends ApiTest {
 
     @Test
     void 상품등록() {
-        final var request = 상품등록요청_생성();
+        final var request = 상품등록요청_생성(); // 가독성 향상을 위해 var 타입을 사용
 
         final var response = 상품등록요청(request);
 
